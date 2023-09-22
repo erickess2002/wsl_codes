@@ -4,8 +4,8 @@
 
 
 TEST_CASE("Verificando: abacaxi, aeiou, zyxwv (f), zyxwv"){
-    CHECK(vogais(abacaxi));
-    CHECK(vogais(aeiou));
-    CHECK_FALSE(vogais(zyxwv));
-    CHECK_FALSE(vogais(pqrst));
+    CHECK(vogais("abacaxi"));
+    CHECK(vogais("aeiou"));
+    CHECK_FALSE(vogais("zyxwv"));
+    CHECK_FALSE(vogais("pqrst"));
 }
