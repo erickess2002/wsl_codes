@@ -1,6 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.hpp"
-#include "vogais.hpp"
+#include "contaVogais.hpp"
 
 
 TEST_CASE("Verificando: abacaxi, aeiou, zyxwv (f), zyxwv"){

@@ -1,4 +1,4 @@
-#include "vogais.hpp"
+#include "contaVogais.hpp"
 
 bool vogais(std::string a){
 
