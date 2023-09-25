@@ -1,5 +1,5 @@
 {
-    "tasks": [
+    "tasks": [ 
         {
             "type": "cppbuild",
             "label": "C/C++: gcc build active file",
@@ -7,9 +7,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}/*.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "options": {
                 "cwd": "${fileDirname}"

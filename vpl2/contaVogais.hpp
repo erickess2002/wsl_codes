@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 
-bool vogais(std::string a);
+int vogais(std::string entrada);
